@@ -4,7 +4,6 @@
   "parameters": {
     "userImageStorageAccountName": {
       "type": "string",
-      "defaultValue": "us4prodclientsarmaxvms",
       "metadata": {
         "description": "This is the name of the your storage account"
       }
