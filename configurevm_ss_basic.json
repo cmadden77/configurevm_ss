@@ -25,14 +25,12 @@
     },
     "dnsLabelPrefix": {
       "type": "string",
-      "defaultValue": "axtesthioiop03",
       "metadata": {
         "description": "DNS Label for the Public IP. Must be lowercase. It should match with the following regular expression: ^[a-z][a-z0-9-]{1,61}[a-z0-9]$ or it will raise an error."
       }
     },
     "domainUsername": {
       "type": "string",
-      "defaultValue": "adadministrator",
       "metadata": {
         "description": "Username of the account on the domain"
       }
@@ -56,7 +54,6 @@
       }
     },
     "sizeOfEachDataDiskInGB": {
-      "defaultValue": "10",
       "type": "String",
       "metadata": {
         "description": "There will be 32 data disks created of this size and then striped. The total capacity will be 32x whatever you specify here"
@@ -64,13 +61,11 @@
     },
     "vmSize": {
       "type": "string",
-      "defaultValue": "Standard_d14",
       "metadata": {
         "description": "This is the size of your VM"
       }
     },
     "modulesUrl": {
-      "defaultValue": "https://github.com/Azure/azure-quickstart-templates/blob/master/301-vm-32-data-disks-high-iops/StoragePool.ps1.zip?raw=true",
       "type": "String",
       "metadata": {
         "description": "URL for the powershell script configuration module. "
@@ -78,14 +73,8 @@
     },
     "CreateStorageAccountType": {
       "type": "string",
-      "defaultValue": "Standard_LRS",
-      "allowedValues": [
-        "Standard_LRS",
-        "Standard_ZRS",
-        "Standard_GRS",
-        "Standard_RAGRS",
-        "Premium_LRS"
-      ]
+        "metadata": {
+        "description": "Type of Storage account to be created. "
     },
     "datacenterCode": {
       "type": "string",
