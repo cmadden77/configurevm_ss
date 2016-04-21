@@ -41,17 +41,18 @@
     "datacenterCode": {
       "value": "us4"
     },
-  "envCode": {
-    "value": "prod"
+    "envCode": {
+      "value": "prod"
     },
-  "ClientCode": {
-    "value": "zz"
+    "ClientCode": {
+      "value": "zz"
     },
-  "clientShortName": {
-    "value": "test01"
+    "clientShortName": {
+      "value": "test01"
     },
-  "currentDate": {
-    "value": "16-04-20"
+    "currentDate": {
+      "value": "16-04-20"
     }
   }
 }
+
