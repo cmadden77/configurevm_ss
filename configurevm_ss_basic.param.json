@@ -23,9 +23,6 @@
     "adminUserName": {
       "value": "adadministrator"
     },
-    "osType": {
-      "value": "Windows"
-    },
     "sizeOfEachDataDiskInGB": {
       "value": "10"
     }
