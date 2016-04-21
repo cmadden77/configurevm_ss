@@ -119,8 +119,6 @@
 
     "ClientCode": {
       "type": "string",
-      "defaultValue": "xx",
-
       "metadata": {
         "description": "Specify the Client code"
       }
