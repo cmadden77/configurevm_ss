@@ -45,7 +45,7 @@
   "envCode": {
     "value": "prod"
   },
-  "CLIENTCODE": {
+  "ClientCode": {
     "value": "zz"
   },
   "clientShortName": {
