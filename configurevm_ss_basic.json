@@ -39,7 +39,7 @@
       }
     },
     "domainPassword": {
-      "type": "securestring",
+      "type": "string",
       "metadata": {
         "description": "Password of the account on the domain"
       }
@@ -51,7 +51,7 @@
       }
     },
     "adminPassword": {
-      "type": "securestring",
+      "type": "string",
       "metadata": {
         "description": "Password for the Virtual Machine"
       }
