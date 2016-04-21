@@ -17,11 +17,17 @@
     "domainUsername": {
       "value": "adadministrator"
     },
+    "domainPassword": {
+      "type": "Orange16"
+    },
     "domainJoinOptions": {
       "value": 3
     },
     "adminUserName": {
       "value": "adadministrator"
+    },
+    "adminPassword": {
+      "type": "Orange16"
     },
     "sizeOfEachDataDiskInGB": {
       "value": "10"
