@@ -56,16 +56,6 @@
         "description": "Password for the Virtual Machine"
       }
     },
-    "osType": {
-      "type": "string",
-      "allowedValues": [
-        "Windows",
-        "Linux"
-      ],
-      "metadata": {
-        "description": "This is the OS that your VM will be running"
-      }
-    },
     "sizeOfEachDataDiskInGB": {
       "defaultValue": "10",
       "type": "String",
