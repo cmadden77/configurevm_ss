@@ -28,8 +28,7 @@
     },
     "sizeOfEachDataDiskInGB": {
       "value": "10"
-    }
-  },
+    },
   "vmSize": {
     "value": "Standard_d14"
   },
