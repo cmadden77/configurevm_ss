@@ -17,17 +17,11 @@
     "domainUsername": {
       "value": "adadministrator"
     },
-    "domainPassword": {
-      "value": "Orange16"
-    },
     "domainJoinOptions": {
       "value": 3
     },
     "adminUserName": {
       "value": "adadministrator"
-    },
-    "vmAdminPassword": {
-      "value": "Orange16"
     },
     "osType": {
       "value": "Windows"
